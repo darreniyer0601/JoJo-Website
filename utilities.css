@@ -1,0 +1,111 @@
+/* Variables */
+:root {
+  --part-1-col: #812ae3;
+  --part-2-col: #eab62b;
+  --part-3-col: #2cb6b1;
+  --part-4-col: #e466d9;
+  --part-5-col: #ece91f;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.btn-part-1 {
+  background: #f4f4f4;
+  color: var(--part-1-col);
+}
+
+.btn-part-2 {
+  background: #f4f4f4;
+  color: var(--part-2-col);
+}
+
+.btn-part-3 {
+  background: #f4f4f4;
+  color: var(--part-3-col);
+}
+
+.btn-part-4 {
+  background: #f4f4f4;
+  color: var(--part-4-col);
+}
+
+.btn-part-5 {
+  background: #f4f4f4;
+  color: #c9c61a;
+}
+
+/* Backgrounds */
+.bg-part-1 {
+  background: var(--part-1-col);
+  color: #fff;
+}
+
+.bg-part-2 {
+  background: var(--part-2-col);
+  color: #fff;
+}
+
+.bg-part-3 {
+  background: var(--part-3-col);
+  color: #333;
+}
+
+.bg-part-4 {
+  background: var(--part-4-col);
+  color: #333;
+}
+
+.bg-part-5 {
+  background: var(--part-5-col);
+  color: #333;
+}
+
+/* Flex Items */
+.flex-columns .row {
+  display: flex;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
