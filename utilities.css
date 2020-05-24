@@ -48,6 +48,31 @@
   color: #c9c61a;
 }
 
+.btn-clips-1:hover {
+  background: var(--part-1-col);
+  color: #fff;
+}
+
+.btn-clips-2:hover {
+  background: var(--part-2-col);
+  color: #fff;
+}
+
+.btn-clips-3:hover {
+  background: var(--part-3-col);
+  color: #f4f4f4;
+}
+
+.btn-clips-4:hover {
+  background: var(--part-4-col);
+  color: #333;
+}
+
+.btn-clips-5:hover {
+  background: var(--part-5-col);
+  color: #333;
+}
+
 /* Backgrounds */
 .bg-part-1 {
   background: var(--part-1-col);
