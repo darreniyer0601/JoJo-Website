@@ -54,6 +54,7 @@ header {
 #clips {
   background: green;
   color: #f4f4f4;
+  margin-bottom: 20px;
   transition: all 0.5s;
   position: absolute;
   right: 20px;
