@@ -51,13 +51,22 @@ header {
   margin-bottom: 10px;
 }
 
+#quizLink {
+  margin: auto;
+  text-align: center;
+}
+
 #clips {
   background: green;
   color: #f4f4f4;
-  margin-bottom: 20px;
+  width: 98%;
+  text-align: center;
+  align-items: center;
+  padding: 20px 20px;
+  /* margin-bottom: 20px; */
+  margin-left: 10px;
+  margin-right: 10px;
   transition: all 0.5s;
-  position: absolute;
-  right: 20px;
 }
 
 #clips:hover {
@@ -82,6 +91,8 @@ section {
 }
 
 footer {
+  width: 100%;
+  margin-top: 20px;
   text-align: center;
   color: #fff;
 }

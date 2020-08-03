@@ -52,7 +52,7 @@ body {
   cursor: pointer;
   position: absolute;
   right: 10px;
-  bottom: 30px;
+  bottom: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px 30px;
@@ -86,5 +86,30 @@ body {
 #next:hover,
 #startButton:hover {
   background: #eab62b;
+  color: #333;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#homepage {
+  background: green;
+  color: #f4f4f4;
+  margin: auto;
+  width: 30%;
+  padding: 20px 20px;
+  transition: all 0.5s;
+
+  display: none;
+}
+
+#homepage:hover {
+  background: #fff;
   color: #333;
 }

@@ -141,6 +141,7 @@ function showNextQuestion() {
     var resultOutput = `You scored a ${numCorrect} out of 5`;
     resultText.innerHTML = resultOutput;
     nextButton.style.display = "none";
+    document.getElementById("homepage").style.display = "block";
   } else {
     showQuestion();
   }
