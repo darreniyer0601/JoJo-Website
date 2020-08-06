@@ -34,7 +34,7 @@ var myQuestions = [
     question: "What are stands in Stardust Crusaders named after?",
     answers: {
       a: "Tarot Cards",
-      b: "Egyptian Gods",
+      b: "Greek Gods",
       c: "Bands",
       d: "Songs",
     },
@@ -97,9 +97,11 @@ function showQuestion() {
 
   answerContainer.innerHTML = output;
 
+  // Create a node list of all answer buttons
   answerSelection = document.querySelectorAll(".ans");
   console.log(answerSelection);
 
+  // Go through each button and add an event listener
   answerSelection.forEach((answer) => {
     answer.addEventListener("click", (event) => displayAnswers(answer));
   });
