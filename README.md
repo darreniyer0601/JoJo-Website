@@ -1,5 +1,7 @@
 # Greetings Fellow Otakus!
 
-### Are you ready to have a *Bizarre* experience?
+### Are you ready to have a "*Bizarre*" experience?
 
-Experience your favorite anime characters from *JoJo's Bizarre Adventure* and even test your knowledge about the famous anime franchise by attempting the quiz at the end!
+* Learn more about your favorite anime characters from *JoJo's Bizarre Adventure* 
+* Watch episodes & clips!
+* Get a chance to test your knowledge about the famous anime franchise by attempting the quiz at the end!
