@@ -56,7 +56,7 @@ header {
   text-align: center;
 }
 
-#clips {
+.clips {
   background: green;
   color: #f4f4f4;
   width: 98%;
@@ -68,7 +68,7 @@ header {
   transition: all 0.5s;
 }
 
-#clips:hover {
+.clips:hover {
   background: #fff;
   color: #333;
 }
@@ -124,7 +124,7 @@ footer {
     flex-direction: column;
   }
 
-  #clips {
+  .clips {
     /* margin-right: none; */
     margin-left: 3px;
   }
@@ -148,7 +148,7 @@ footer {
     max-width: 100vw;
   }
 
-  #clips {
+  .clips {
     /* margin-right: none; */
     margin-left: 3px;
   }
